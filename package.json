@@ -10,6 +10,7 @@
     "debug": "cross-env NODE_OPTIONS='--inspect' next dev"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.2.1",
     "classnames": "^2.3.1",
     "cross-env": "^7.0.3",
     "next": "12.1.6",

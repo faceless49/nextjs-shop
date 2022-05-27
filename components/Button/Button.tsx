@@ -22,7 +22,7 @@ export const Button = ({
       {arrow != 'none' && <span className={cn(styles.arrow, {
         [styles.down]: arrow == 'down'
       })}>
-				<ArrowIcon/>
+				<ArrowIcon />
 			</span>}
     </button>
   );
