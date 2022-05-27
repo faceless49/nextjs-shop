@@ -1,8 +1,9 @@
-import type {NextPage} from 'next';
+import type { NextPage } from 'next';
+import { Htag } from 'components';
 
 const Home: NextPage = () => {
   return (
-    <div/>
+    <Htag tag='h3'>Text</Htag>
   );
 };
 
